@@ -7,6 +7,11 @@ author: Atsushi Sakai (@Atsushi_twi)
 """
 
 import math
+import sys
+from pathlib import Path
+
+# Add project root to path
+sys.path.append(str(Path(__file__).parent.parent.parent))
 
 import matplotlib.pyplot as plt
 import numpy as np
